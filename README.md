@@ -6,7 +6,8 @@ Author: fiirewolvar
 In order to use the viewer, you need to own the game, as it pulls dialogue from extracted asset files (which I'm unsure whether I'm legally allowed to provide along with the viewer). Right now, it doesn't extract the dialogue tree assets from the compiled files by itself, so you will have to do this manually. The way I would recommend doing this is as follows:
 - First, download UABE: https://github.com/SeriousCache/UABE
 - In UABE, go to File -> Open and then select the following files found in your copy of GGG's base directory: globalgamemanagers.assets, resources.assets
-- Click on resources.assets in the left pane
+- In the type database selection window that pops up, select the one at the bottom of the list (U2021.3.0f1) and click OK
+- Click on resources.assets in the left pane to load the assets
 - Sort the data that is shown in the right pane by Type and find all the MonoBehaviour : DialogueGraph.DialogueGraph_SO assets
 - Ctrl + click on these to select all of them (or just the desired ones) then click Export Raw on the right side of the window
 - Create a folder named "dialogues" in the same directory as the viewer's .exe, and put these files in there
